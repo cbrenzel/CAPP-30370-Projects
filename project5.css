@@ -1,0 +1,7 @@
+body {font-family: sans-serif; 
+      background-color: #CCFF66 ;
+      font-size;100%}
+h1,h2,h3,h4,h5,h6 {font-family:serif;
+    color: green}
+blockquote {background-color: #99FF66}   
+p.float {float:right; border: 6px green; border-style: double}

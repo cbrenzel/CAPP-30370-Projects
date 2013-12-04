@@ -1,0 +1,16 @@
+body 
+{background-color: gray;
+ 
+      margin: 0 8%;
+      
+} 
+
+h1 {color:blue;
+}
+
+h2 {color:red;
+}
+
+h3 {color:green;}
+table{border: 1px solid black;}
+td,th{border: 1px solid black;}

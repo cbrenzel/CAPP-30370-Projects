@@ -1,0 +1,55 @@
+body {
+  background-color:green;
+}
+}
+.bunny {
+  width: 400px;
+  height: auto;
+  transition:rotate 2s ease;}
+.bunny:hover {
+    -webkit-transform:rotate(180deg);
+}
+}
+.puppy {
+  width: 400px;
+  height: auto;
+  transition:scale 2s ease;
+}
+.puppy:hover {
+  -webkit-transform:scale(1.50);
+}
+.mouse {
+  width: 400px; 
+  height: auto;
+  transform:all 1s ease;
+  
+}
+
+.mouse:hover{
+   -webkit-transform:skew(-20deg);
+}
+ .box1 { float: left;
+          width:250px;
+          height:250px;
+          background-color:black;
+          margin: 1em;
+           background-color:black;
+  box-shadow: 10px 10px 5px orange;
+  transition:background-color 3s ease;
+  transition:box-shadow 3s ease;
+        
+    }
+.box1:hover { background-color:orange;}
+.box1:hover {box-shadow: 10px 10px 5px black;}
+
+.box2 { float: left;
+        clear: left;
+          width:250px;
+          height:250px;
+    background-color:blue;
+    transition:all 2s ease-in;}
+.box2:hover{
+  -webkit-transform:rotate(25deg); scale(1.05);
+  background-color:blue;
+   
+}

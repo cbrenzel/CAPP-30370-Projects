@@ -1,0 +1,31 @@
+body {
+  background-color: #787878 ;
+}
+
+  h1 {text-align: center;}
+  h2 {text-align: center;}
+
+img {max-width: 40%;}
+
+@media screen and (max-width: 400px){
+ body {background-color: #686868 ;
+  }
+  img {max-width: 100%;}
+  
+}
+@media only screen and (min-width: 801px){
+img {
+float: right;
+max-width: 30%;
+  margin: 0 0 1em 2em;}
+main {float: left;
+      max-width: 70%;}
+
+nav {float: left;
+    padding: 10px;
+    bottom-padding: 100%;}
+  body { background-color: #808080 }
+    
+}
+
+  
